@@ -1,0 +1,880 @@
+flamegraph_sampling_rates:
+  - app: 'TextNow DiFBd'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644593040000&to=1644593460000'
+    sample_rate: 100
+    pageload_duration:
+      - 6.46
+      - 5.11
+      - 4.89
+      - 5.18
+      - 4.83
+    query_log:
+      - '2022-02-11T15:26:25.844044081Z stderr F {"level":"info","pid":1,"query":3653.915613,"payload_dur":2.501552,"time":"2022-02-11T15:26:25Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-11T15:26:59.544744495Z stderr F {"level":"info","pid":1,"query":3763.768796,"payload_dur":1.407283,"time":"2022-02-11T15:26:59Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-11T15:27:15.31972745Z stderr F {"level":"info","pid":1,"query":4577.112774,"payload_dur":2.12865,"time":"2022-02-11T15:27:15Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-11T15:27:30.726005087Z stderr F {"level":"info","pid":1,"query":3599.282304,"payload_dur":6.151548,"time":"2022-02-11T15:27:30Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-11T15:27:44.661139732Z stderr F {"level":"info","pid":1,"query":3372.191369,"payload_dur":1.202836,"time":"2022-02-11T15:27:44Z","message":"Finished producing response for flamegraph query"}'
+  
+  - app: 'TextNow DiFBd'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644594540000&to=1644594900000'
+    sample_rate: 5
+    pageload_duration:
+      - 5.42
+      - 3.92
+      - 3.61
+      - 3.52
+      - 3.50
+    query_log:
+      - '2022-02-11T15:50:43.442625183Z stderr F {"level":"info","pid":1,"query":1938.375511,"payload_dur":1.573811,"time":"2022-02-11T15:50:43Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-11T15:51:34.917291639Z stderr F {"level":"info","pid":1,"query":1977.664771,"payload_dur":3.671566,"time":"2022-02-11T15:51:34Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-11T15:51:57.141698087Z stderr F {"level":"info","pid":1,"query":2082.280969,"payload_dur":1.134642,"time":"2022-02-11T15:51:57Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-11T15:52:07.004745506Z stderr F {"level":"info","pid":1,"query":1928.652681,"payload_dur":2.131071,"time":"2022-02-11T15:52:07Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-11T15:52:16.760655241Z stderr F {"level":"info","pid":1,"query":1754.329166,"payload_dur":2.435007,"time":"2022-02-11T15:52:16Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'TextNow DiFBd'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644882600000&to=1644882779000'
+    sample_rate: 10
+    pageload_duration:
+      - 5.10
+      - 5.09
+      - 4.77
+      - 4.20
+      - 3.92
+    query_log:
+      - '2022-02-14T23:49:45.938783023Z stderr F {"level":"info","pid":1,"query":2446.837836,"payload_dur":3.694327,"time":"2022-02-14T23:49:45Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-14T23:50:12.146770091Z stderr F {"level":"info","pid":1,"query":2110.245226,"payload_dur":1.385089,"time":"2022-02-14T23:50:12Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-14T23:51:06.846076683Z stderr F {"level":"info","pid":1,"query":2486.533019,"payload_dur":0.984172,"time":"2022-02-14T23:51:06Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-14T23:51:18.101313981Z stderr F {"level":"info","pid":1,"query":2238.704389,"payload_dur":1.311761,"time":"2022-02-14T23:51:18Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-14T23:51:28.065479366Z stderr F {"level":"info","pid":1,"query":1918.233321,"payload_dur":1.32984,"time":"2022-02-14T23:51:28Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'TextNow DiFBd'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644885120000&to=1644885299000'
+    sample_rate: 20
+    pageload_duration:
+      - 5.53
+      - 4.19
+      - 4.16
+      - 4.30
+      - 4.18
+    query_log:
+      - '2022-02-15T00:32:05.973793292Z stderr F {"level":"info","pid":1,"query":2410.763356,"payload_dur":0.972783,"time":"2022-02-15T00:32:05Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T00:32:28.902097881Z stderr F {"level":"info","pid":1,"query":2491.332649,"payload_dur":1.235542,"time":"2022-02-15T00:32:28Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T00:32:45.041304741Z stderr F {"level":"info","pid":1,"query":2400.823306,"payload_dur":1.056184,"time":"2022-02-15T00:32:45Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T00:32:54.466690657Z stderr F {"level":"info","pid":1,"query":2487.261149,"payload_dur":1.270926,"time":"2022-02-15T00:32:54Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T00:33:05.009392502Z stderr F {"level":"info","pid":1,"query":2390.190587,"payload_dur":1.731814,"time":"2022-02-15T00:33:05Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'TextNow DiFBd'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644885420000&to=1644885539000'
+    sample_rate: 30
+    pageload_duration:
+      - 5.73
+      - 4.31
+      - 4.23
+      - 4.21
+      - 4.32
+    query_log:
+      - '2022-02-15T00:37:32.08928967Z stderr F {"level":"info","pid":1,"query":2391.55742,"payload_dur":2.437962,"time":"2022-02-15T00:37:32Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T00:37:56.645985664Z stderr F {"level":"info","pid":1,"query":2503.248737,"payload_dur":1.367643,"time":"2022-02-15T00:37:56Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T00:38:11.277056541Z stderr F {"level":"info","pid":1,"query":2504.649404,"payload_dur":1.727297,"time":"2022-02-15T00:38:11Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T00:38:22.81586714Z stderr F {"level":"info","pid":1,"query":2559.650244,"payload_dur":1.715332,"time":"2022-02-15T00:38:22Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T00:38:39.375362827Z stderr F {"level":"info","pid":1,"query":2352.272254,"payload_dur":2.67788,"time":"2022-02-15T00:38:39Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'TextNow DiFBd'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644885840000&to=1644885959000'
+    sample_rate: 40
+    pageload_duration:
+      - 6.10
+      - 4.31
+      - 4.25
+      - 4.28
+      - 4.02
+    query_log:
+      - '2022-02-15T00:44:48.529880634Z stderr F {"level":"info","pid":1,"query":2557.271433,"payload_dur":0.980215,"time":"2022-02-15T00:44:48Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T00:45:00.86941731Z stderr F {"level":"info","pid":1,"query":2513.890297,"payload_dur":0.985603,"time":"2022-02-15T00:45:00Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T00:45:13.635546684Z stderr F {"level":"info","pid":1,"query":2597.898952,"payload_dur":1.663766,"time":"2022-02-15T00:45:13Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T00:45:25.596755991Z stderr F {"level":"info","pid":1,"query":2609.18657,"payload_dur":1.557349,"time":"2022-02-15T00:45:25Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T00:45:35.931398899Z stderr F {"level":"info","pid":1,"query":2413.61574,"payload_dur":0.953206,"time":"2022-02-15T00:45:35Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'TextNow DiFBd'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644894720000&to=1644894840000'
+    sample_rate: 50
+    pageload_duration:
+      - 5.65
+      - 4.29
+      - 4.76
+      - 4.49
+      - 4.29
+    query_log:
+      - '2022-02-15T03:12:34.15414295Z stderr F {"level":"info","pid":1,"query":2598.98959,"payload_dur":2.59543,"time":"2022-02-15T03:12:34Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T03:12:58.562828924Z stderr F {"level":"info","pid":1,"query":2613.137597,"payload_dur":1.227823,"time":"2022-02-15T03:12:58Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T03:13:11.287925794Z stderr F {"level":"info","pid":1,"query":2731.497372,"payload_dur":2.213097,"time":"2022-02-15T03:13:11Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T03:13:24.688998356Z stderr F {"level":"info","pid":1,"query":2746.016446,"payload_dur":2.324185,"time":"2022-02-15T03:13:24Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T03:13:34.164729436Z stderr F {"level":"info","pid":1,"query":2573.055703,"payload_dur":1.215244,"time":"2022-02-15T03:13:34Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'TextNow DiFBd'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644894960000&to=1644895080000'
+    sample_rate: 60
+    pageload_duration:
+      - 5.75
+      - 4.89
+      - 4.64
+      - 4.59
+      - 4.47
+    query_log:
+      - '2022-02-15T03:16:27.699083293Z stderr F {"level":"info","pid":1,"query":2650.539903,"payload_dur":2.705932,"time":"2022-02-15T03:16:27Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T03:16:38.355553619Z stderr F {"level":"info","pid":1,"query":2834.523909,"payload_dur":2.01433,"time":"2022-02-15T03:16:38Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T03:16:47.975360998Z stderr F {"level":"info","pid":1,"query":2813.038469,"payload_dur":1.670363,"time":"2022-02-15T03:16:47Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T03:16:59.602039731Z stderr F {"level":"info","pid":1,"query":2849.759005,"payload_dur":3.123956,"time":"2022-02-15T03:16:59Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T03:17:10.238989857Z stderr F {"level":"info","pid":1,"query":2784.883063,"payload_dur":1.333108,"time":"2022-02-15T03:17:10Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'TextNow DiFBd'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644895200000&to=1644895320000'
+    sample_rate: 70
+    pageload_duration:
+      - 6.78
+      - 4.43
+      - 4.70
+      - 4.60
+      - 4.72
+    query_log:
+      - '2022-02-15T03:20:23.589221262Z stderr F {"level":"info","pid":1,"query":3292.695929,"payload_dur":2.376135,"time":"2022-02-15T03:20:23Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T03:20:37.26978661Z stderr F {"level":"info","pid":1,"query":2768.873871,"payload_dur":2.930574,"time":"2022-02-15T03:20:37Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T03:20:56.020701942Z stderr F {"level":"info","pid":1,"query":3040.152802,"payload_dur":3.462109,"time":"2022-02-15T03:20:56Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T03:21:07.518898623Z stderr F {"level":"info","pid":1,"query":2916.354726,"payload_dur":1.328539,"time":"2022-02-15T03:21:07Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T03:21:26.233874433Z stderr F {"level":"info","pid":1,"query":3075.969548,"payload_dur":1.697687,"time":"2022-02-15T03:21:26Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'TextNow DiFBd'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644895380000&to=1644895500000'
+    sample_rate: 80
+    pageload_duration:
+      - 6.29
+      - 4.49
+      - 4.69
+      - 4.61
+      - 4.58
+    query_log:
+      - '2022-02-15T03:23:51.304279906Z stderr F {"level":"info","pid":1,"query":3088.87944,"payload_dur":1.497479,"time":"2022-02-15T03:23:51Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T03:24:03.778417236Z stderr F {"level":"info","pid":1,"query":2843.832313,"payload_dur":1.718149,"time":"2022-02-15T03:24:03Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T03:24:16.452486771Z stderr F {"level":"info","pid":1,"query":3143.95174,"payload_dur":1.899815,"time":"2022-02-15T03:24:16Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T03:24:26.880687692Z stderr F {"level":"info","pid":1,"query":3000.033184,"payload_dur":2.385225,"time":"2022-02-15T03:24:26Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T03:24:36.102136634Z stderr F {"level":"info","pid":1,"query":2968.704507,"payload_dur":6.532591,"time":"2022-02-15T03:24:36Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'TextNow DiFBd'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644895560000&to=1644895740000'
+    sample_rate: 90
+    pageload_duration:
+      - 6.27
+      - 4.88
+      - 4.65
+      - 4.96
+      - 4.69
+    query_log:
+      - '2022-02-15T03:27:31.90964106Z stderr F {"level":"info","pid":1,"query":3022.080731,"payload_dur":1.195101,"time":"2022-02-15T03:27:31Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T03:27:51.185481625Z stderr F {"level":"info","pid":1,"query":3112.387667,"payload_dur":1.179659,"time":"2022-02-15T03:27:51Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T03:28:01.943959825Z stderr F {"level":"info","pid":1,"query":2988.259312,"payload_dur":2.41045,"time":"2022-02-15T03:28:01Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T03:28:14.909558831Z stderr F {"level":"info","pid":1,"query":3266.983975,"payload_dur":2.650738,"time":"2022-02-15T03:28:14Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T03:28:30.721667865Z stderr F {"level":"info","pid":1,"query":3088.647305,"payload_dur":5.619465,"time":"2022-02-15T03:28:30Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'War Machines jzjSv'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644896400000&to=1644896520000'
+    sample_rate: 100
+    pageload_duration:
+      - 3.35
+      - 2.12
+      - 2.07
+      - 1.96
+      - 1.97
+    query_log:
+      - '2022-02-15T03:40:52.228953958Z stderr F {"level":"info","pid":1,"query":490.365026,"payload_dur":0.777468,"time":"2022-02-15T03:40:52Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T03:41:01.824302833Z stderr F {"level":"info","pid":1,"query":477.513005,"payload_dur":0.639734,"time":"2022-02-15T03:41:01Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T03:41:11.684395613Z stderr F {"level":"info","pid":1,"query":508.730874,"payload_dur":1.248903,"time":"2022-02-15T03:41:11Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T03:41:23.935924961Z stderr F {"level":"info","pid":1,"query":373.635219,"payload_dur":1.670859,"time":"2022-02-15T03:41:23Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T03:41:34.011948823Z stderr F {"level":"info","pid":1,"query":421.777261,"payload_dur":0.620238,"time":"2022-02-15T03:41:34Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'War Machines jzjSv'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644896820000&to=1644897120000'
+    sample_rate: 5
+    pageload_duration:
+      - 3.28
+      - 1.97
+      - 1.97
+      - 1.89
+      - 1.88
+    query_log:
+      - '2022-02-15T03:51:18.948746974Z stderr F {"level":"info","pid":1,"query":291.358007,"payload_dur":0.516584,"time":"2022-02-15T03:51:18Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T03:51:28.694434521Z stderr F {"level":"info","pid":1,"query":317.844907,"payload_dur":0.674093,"time":"2022-02-15T03:51:28Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T03:51:38.727850396Z stderr F {"level":"info","pid":1,"query":302.886239,"payload_dur":0.977096,"time":"2022-02-15T03:51:38Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T03:51:46.834756262Z stderr F {"level":"info","pid":1,"query":299.646275,"payload_dur":2.995847,"time":"2022-02-15T03:51:46Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T03:51:54.28641322Z stderr F {"level":"info","pid":1,"query":307.406362,"payload_dur":0.566456,"time":"2022-02-15T03:51:54Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'War Machines jzjSv'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644897300000&to=1644897480000'
+    sample_rate: 10
+    pageload_duration:
+      - 3.21
+      - 2.03
+      - 1.95
+      - 2.04
+      - 1.97
+    query_log:
+      - '2022-02-15T03:56:41.253024756Z stderr F {"level":"info","pid":1,"query":316.646693,"payload_dur":0.838977,"time":"2022-02-15T03:56:41Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T03:56:50.596982596Z stderr F {"level":"info","pid":1,"query":308.373155,"payload_dur":3.035168,"time":"2022-02-15T03:56:50Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T03:56:57.783841749Z stderr F {"level":"info","pid":1,"query":360.924422,"payload_dur":0.540352,"time":"2022-02-15T03:56:57Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T03:57:05.682877633Z stderr F {"level":"info","pid":1,"query":308.23446,"payload_dur":0.691126,"time":"2022-02-15T03:57:05Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T03:57:13.368535574Z stderr F {"level":"info","pid":1,"query":305.298866,"payload_dur":0.610775,"time":"2022-02-15T03:57:13Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'War Machines jzjSv'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644897540000&to=1644897660000'
+    sample_rate: 20
+    pageload_duration:
+      - 3.53
+      - 2.56
+      - 2.20
+      - 2.09
+      - 2.09
+    query_log:
+      - '2022-02-15T03:59:43.909060805Z stderr F {"level":"info","pid":1,"query":316.952737,"payload_dur":0.565361,"time":"2022-02-15T03:59:43Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T04:00:05.583955752Z stderr F {"level":"info","pid":1,"query":345.863506,"payload_dur":0.586086,"time":"2022-02-15T04:00:05Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T04:00:15.698765271Z stderr F {"level":"info","pid":1,"query":323.151741,"payload_dur":0.545796,"time":"2022-02-15T04:00:15Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T04:00:24.020586485Z stderr F {"level":"info","pid":1,"query":302.522356,"payload_dur":0.604415,"time":"2022-02-15T04:00:24Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T04:00:31.102251708Z stderr F {"level":"info","pid":1,"query":333.745784,"payload_dur":0.915745,"time":"2022-02-15T04:00:31Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'War Machines jzjSv'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644897720000&to=1644897840000'
+    sample_rate: 30
+    pageload_duration:
+      - 5.42
+      - 2.35
+      - 2.04
+      - 1.91
+      - 1.92
+    query_log:
+      - '2022-02-15T04:03:04.997039866Z stderr F {"level":"info","pid":1,"query":317.63655,"payload_dur":0.515983,"time":"2022-02-15T04:03:04Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T04:03:17.171463Z stderr F {"level":"info","pid":1,"query":340.13412,"payload_dur":0.600155,"time":"2022-02-15T04:03:17Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T04:03:27.552916734Z stderr F {"level":"info","pid":1,"query":350.901307,"payload_dur":0.547134,"time":"2022-02-15T04:03:27Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T04:03:34.572509817Z stderr F {"level":"info","pid":1,"query":320.773077,"payload_dur":0.931878,"time":"2022-02-15T04:03:34Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T04:03:41.458904928Z stderr F {"level":"info","pid":1,"query":309.396302,"payload_dur":0.537884,"time":"2022-02-15T04:03:41Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'War Machines jzjSv'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644897900000&to=1644898020000'
+    sample_rate: 40
+    pageload_duration:
+      - 3.23
+      - 1.96
+      - 1.83
+      - 1.89
+      - 1.85
+    query_log:
+      - '2022-02-15T04:05:32.279526804Z stderr F {"level":"info","pid":1,"query":370.218855,"payload_dur":0.56695,"time":"2022-02-15T04:05:32Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T04:05:41.906733337Z stderr F {"level":"info","pid":1,"query":330.052001,"payload_dur":0.60023,"time":"2022-02-15T04:05:41Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T04:05:53.069065567Z stderr F {"level":"info","pid":1,"query":351.145957,"payload_dur":0.561045,"time":"2022-02-15T04:05:53Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T04:06:03.419573321Z stderr F {"level":"info","pid":1,"query":331.262353,"payload_dur":0.527799,"time":"2022-02-15T04:06:03Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T04:06:15.367596674Z stderr F {"level":"info","pid":1,"query":347.750927,"payload_dur":0.911877,"time":"2022-02-15T04:06:15Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'War Machines jzjSv'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644898080000&to=1644898140000'
+    sample_rate: 50
+    pageload_duration:
+      - 3.48
+      - 1.98
+      - 1.92
+      - 1.89
+      - 1.86
+    query_log:
+      - '2022-02-15T04:08:18.307285134Z stderr F {"level":"info","pid":1,"query":334.499604,"payload_dur":0.548296,"time":"2022-02-15T04:08:18Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T04:08:27.122194421Z stderr F {"level":"info","pid":1,"query":319.557192,"payload_dur":0.659624,"time":"2022-02-15T04:08:27Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T04:08:35.523430019Z stderr F {"level":"info","pid":1,"query":350.268029,"payload_dur":0.590084,"time":"2022-02-15T04:08:35Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T04:08:44.442648297Z stderr F {"level":"info","pid":1,"query":333.895265,"payload_dur":0.527654,"time":"2022-02-15T04:08:44Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T04:08:50.857910187Z stderr F {"level":"info","pid":1,"query":336.608594,"payload_dur":0.726206,"time":"2022-02-15T04:08:50Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'War Machines jzjSv'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644898320000&to=1644898620000'
+    sample_rate: 60
+    pageload_duration:
+      - 3.34
+      - 2.05
+      - 1.94
+      - 1.97
+      - 1.89
+    query_log:
+      - '2022-02-15T04:15:51.773250485Z stderr F {"level":"info","pid":1,"query":356.714731,"payload_dur":0.531195,"time":"2022-02-15T04:15:51Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T04:15:59.177909752Z stderr F {"level":"info","pid":1,"query":351.202671,"payload_dur":0.567352,"time":"2022-02-15T04:15:59Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T04:16:08.585145889Z stderr F {"level":"info","pid":1,"query":336.465991,"payload_dur":0.569599,"time":"2022-02-15T04:16:08Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T04:16:17.504018356Z stderr F {"level":"info","pid":1,"query":375.872968,"payload_dur":0.531243,"time":"2022-02-15T04:16:17Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T04:16:25.196138784Z stderr F {"level":"info","pid":1,"query":339.474163,"payload_dur":0.677692,"time":"2022-02-15T04:16:25Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'War Machines jzjSv'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644898680000&to=1644898860000'
+    sample_rate: 70
+    pageload_duration:
+      - 3.44
+      - 2.10
+      - 1.97
+      - 2.07
+      - 1.95
+    query_log:
+      - '2022-02-15T04:19:49.717772042Z stderr F {"level":"info","pid":1,"query":328.38314,"payload_dur":0.603592,"time":"2022-02-15T04:19:49Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T04:19:56.880376805Z stderr F {"level":"info","pid":1,"query":351.919634,"payload_dur":0.589422,"time":"2022-02-15T04:19:56Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T04:20:03.701942561Z stderr F {"level":"info","pid":1,"query":359.326247,"payload_dur":0.641048,"time":"2022-02-15T04:20:03Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T04:20:11.821255678Z stderr F {"level":"info","pid":1,"query":427.957126,"payload_dur":0.574038,"time":"2022-02-15T04:20:11Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T04:20:19.174092349Z stderr F {"level":"info","pid":1,"query":334.378784,"payload_dur":1.095271,"time":"2022-02-15T04:20:19Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'War Machines jzjSv'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644898920000&to=1644899040000'
+    sample_rate: 80
+    pageload_duration:
+      - 3.31
+      - 2.06
+      - 1.92
+      - 2.01
+      - 1.94
+    query_log:
+      - '2022-02-15T04:22:51.690872821Z stderr F {"level":"info","pid":1,"query":371.742602,"payload_dur":0.634329,"time":"2022-02-15T04:22:51Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T04:22:58.032080324Z stderr F {"level":"info","pid":1,"query":336.072006,"payload_dur":0.608677,"time":"2022-02-15T04:22:58Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T04:23:06.490816293Z stderr F {"level":"info","pid":1,"query":342.948282,"payload_dur":1.103747,"time":"2022-02-15T04:23:06Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T04:23:14.074867303Z stderr F {"level":"info","pid":1,"query":403.465152,"payload_dur":0.656206,"time":"2022-02-15T04:23:14Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T04:23:20.69952731Z stderr F {"level":"info","pid":1,"query":370.806328,"payload_dur":1.103081,"time":"2022-02-15T04:23:20Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'War Machines jzjSv'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644899100000&to=1644899220000'
+    sample_rate: 90
+    pageload_duration:
+      - 3.97
+      - 2.51
+      - 2.44
+      - 2.21
+      - 2.27
+    query_log:
+      - '2022-02-15T04:25:27.956218303Z stderr F {"level":"info","pid":1,"query":379.495594,"payload_dur":0.632547,"time":"2022-02-15T04:25:27Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T04:25:38.301035695Z stderr F {"level":"info","pid":1,"query":369.330896,"payload_dur":0.84644,"time":"2022-02-15T04:25:38Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T04:25:53.678989228Z stderr F {"level":"info","pid":1,"query":381.102963,"payload_dur":0.954259,"time":"2022-02-15T04:25:53Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T04:26:00.858847911Z stderr F {"level":"info","pid":1,"query":330.372246,"payload_dur":1.257347,"time":"2022-02-15T04:26:00Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T04:26:07.673558067Z stderr F {"level":"info","pid":1,"query":367.945045,"payload_dur":0.653396,"time":"2022-02-15T04:26:07Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'GameChanger CHYiM'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644903480000&to=1644903600000'
+    sample_rate: 100
+    pageload_duration:
+      - 3.46
+      - 2.45
+      - 2.23
+      - 2.13
+      - 2.03
+    query_log:
+      - '2022-02-15T05:38:05.779988567Z stderr F {"level":"info","pid":1,"query":292.648083,"payload_dur":7.140947,"time":"2022-02-15T05:38:05Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T05:38:16.901649095Z stderr F {"level":"info","pid":1,"query":287.616969,"payload_dur":7.402588,"time":"2022-02-15T05:38:16Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T05:38:24.097810084Z stderr F {"level":"info","pid":1,"query":222.336567,"payload_dur":10.057591,"time":"2022-02-15T05:38:24Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T05:38:30.380443748Z stderr F {"level":"info","pid":1,"query":229.275999,"payload_dur":2.180779,"time":"2022-02-15T05:38:30Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T05:38:39.383045919Z stderr F {"level":"info","pid":1,"query":232.060149,"payload_dur":2.363988,"time":"2022-02-15T05:38:39Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'GameChanger CHYiM'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644903660000&to=1644903780000'
+    sample_rate: 5
+    pageload_duration:
+      - 3.16
+      - 1.88
+      - 1.95
+      - 2.13
+      - 1.92
+    query_log:
+      - '2022-02-15T05:41:31.599812139Z stderr F {"level":"info","pid":1,"query":198.838425,"payload_dur":0.600605,"time":"2022-02-15T05:41:31Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T05:41:38.561071086Z stderr F {"level":"info","pid":1,"query":210.180562,"payload_dur":0.56356,"time":"2022-02-15T05:41:38Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T05:41:46.878773585Z stderr F {"level":"info","pid":1,"query":218.40951,"payload_dur":0.574702,"time":"2022-02-15T05:41:46Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T05:41:53.690375951Z stderr F {"level":"info","pid":1,"query":197.397734,"payload_dur":0.601964,"time":"2022-02-15T05:41:53Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T05:42:02.401416091Z stderr F {"level":"info","pid":1,"query":234.397443,"payload_dur":0.60585,"time":"2022-02-15T05:42:02Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'GameChanger CHYiM'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644907380000&to=1644907560000'
+    sample_rate: 10
+    pageload_duration:
+      - 3.72
+      - 2.44
+      - 2.18
+      - 2.08
+      - 2.00
+    query_log:
+      - '2022-02-15T06:44:25.280251071Z stderr F {"level":"info","pid":1,"query":212.282593,"payload_dur":1.650539,"time":"2022-02-15T06:44:25Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T06:44:36.108701683Z stderr F {"level":"info","pid":1,"query":240.862855,"payload_dur":1.259573,"time":"2022-02-15T06:44:36Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T06:44:42.845311611Z stderr F {"level":"info","pid":1,"query":208.52002,"payload_dur":0.977113,"time":"2022-02-15T06:44:42Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T06:45:08.199639304Z stderr F {"level":"info","pid":1,"query":231.760738,"payload_dur":2.200529,"time":"2022-02-15T06:45:08Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T06:45:20.134321734Z stderr F {"level":"info","pid":1,"query":216.343464,"payload_dur":2.097773,"time":"2022-02-15T06:45:20Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'GameChanger CHYiM'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644907620000&to=1644907800000'
+    sample_rate: 20
+    pageload_duration:
+      - 3.29
+      - 1.92
+      - 1.88
+      - 2.27
+      - 1.91
+    query_log:
+      - '2022-02-15T06:48:38.861818762Z stderr F {"level":"info","pid":1,"query":245.480608,"payload_dur":1.122387,"time":"2022-02-15T06:48:38Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T06:48:48.002567356Z stderr F {"level":"info","pid":1,"query":234.019289,"payload_dur":2.089252,"time":"2022-02-15T06:48:48Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T06:48:56.786664239Z stderr F {"level":"info","pid":1,"query":273.581023,"payload_dur":2.698595,"time":"2022-02-15T06:48:56Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T06:49:05.007765895Z stderr F {"level":"info","pid":1,"query":239.186914,"payload_dur":2.880053,"time":"2022-02-15T06:49:05Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T06:49:12.192531911Z stderr F {"level":"info","pid":1,"query":234.740775,"payload_dur":3.195929,"time":"2022-02-15T06:49:12Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'GameChanger CHYiM'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644907800000&to=1644907980000'
+    sample_rate: 30
+    pageload_duration:
+      - 3.26
+      - 2.11
+      - 2.04
+      - 1.99
+      - 1.97
+    query_log:
+      - '2022-02-15T06:51:46.447407272Z stderr F {"level":"info","pid":1,"query":235.627535,"payload_dur":1.505453,"time":"2022-02-15T06:51:46Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T06:51:53.983947777Z stderr F {"level":"info","pid":1,"query":233.417483,"payload_dur":1.163108,"time":"2022-02-15T06:51:53Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T06:52:00.470316457Z stderr F {"level":"info","pid":1,"query":226.956165,"payload_dur":1.118018,"time":"2022-02-15T06:52:00Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T06:52:07.938391239Z stderr F {"level":"info","pid":1,"query":222.444948,"payload_dur":1.241453,"time":"2022-02-15T06:52:07Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T06:52:14.890072555Z stderr F {"level":"info","pid":1,"query":216.234644,"payload_dur":2.845372,"time":"2022-02-15T06:52:14Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'GameChanger CHYiM'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644908040000&to=1644908160000'
+    sample_rate: 40
+    pageload_duration:
+      - 3.26
+      - 1.89
+      - 1.91
+      - 1.85
+      - 1.82
+    query_log:
+      - '2022-02-15T06:54:29.319975447Z stderr F {"level":"info","pid":1,"query":238.325538,"payload_dur":1.489843,"time":"2022-02-15T06:54:29Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T06:54:36.43501638Z stderr F {"level":"info","pid":1,"query":236.821667,"payload_dur":3.810388,"time":"2022-02-15T06:54:36Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T06:54:44.34401002Z stderr F {"level":"info","pid":1,"query":229.778635,"payload_dur":3.82377,"time":"2022-02-15T06:54:44Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T06:54:51.004786408Z stderr F {"level":"info","pid":1,"query":268.285538,"payload_dur":4.118847,"time":"2022-02-15T06:54:51Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T06:55:00.475714015Z stderr F {"level":"info","pid":1,"query":247.352554,"payload_dur":4.124977,"time":"2022-02-15T06:55:00Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'GameChanger CHYiM'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644908220000&to=1644908340000'
+    sample_rate: 50
+    pageload_duration:
+      - 3.30
+      - 1.91
+      - 1.96
+      - 2.00
+      - 1.90
+    query_log:
+      - '2022-02-15T06:57:41.043737617Z stderr F {"level":"info","pid":1,"query":229.763534,"payload_dur":1.61864,"time":"2022-02-15T06:57:41Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T06:57:47.469209465Z stderr F {"level":"info","pid":1,"query":219.753684,"payload_dur":1.511246,"time":"2022-02-15T06:57:47Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T06:57:54.847067962Z stderr F {"level":"info","pid":1,"query":232.578841,"payload_dur":1.558331,"time":"2022-02-15T06:57:54Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T06:58:05.409577154Z stderr F {"level":"info","pid":1,"query":227.688482,"payload_dur":2.269372,"time":"2022-02-15T06:58:05Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T06:58:12.087802547Z stderr F {"level":"info","pid":1,"query":242.527004,"payload_dur":4.348451,"time":"2022-02-15T06:58:12Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'GameChanger CHYiM'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644908400000&to=1644908520000'
+    sample_rate: 60
+    pageload_duration:
+      - 3.31
+      - 1.99
+      - 1.94
+      - 1.89
+      - 1.92
+    query_log:
+      - '2022-02-15T07:00:49.726240928Z stderr F {"level":"info","pid":1,"query":221.751313,"payload_dur":1.539555,"time":"2022-02-15T07:00:49Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T07:00:56.868977102Z stderr F {"level":"info","pid":1,"query":238.572142,"payload_dur":3.457822,"time":"2022-02-15T07:00:56Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T07:01:06.265103908Z stderr F {"level":"info","pid":1,"query":237.985054,"payload_dur":4.024163,"time":"2022-02-15T07:01:06Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T07:01:13.802006369Z stderr F {"level":"info","pid":1,"query":234.623522,"payload_dur":4.319514,"time":"2022-02-15T07:01:13Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T07:01:20.9626431Z stderr F {"level":"info","pid":1,"query":229.583443,"payload_dur":5.09327,"time":"2022-02-15T07:01:20Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'GameChanger CHYiM'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644908580000&to=1644908700000'
+    sample_rate: 70
+    pageload_duration:
+      - 3.29
+      - 2.24
+      - 2.33
+      - 1.97
+      - 2.01
+    query_log:
+      - '2022-02-15T07:03:48.015168332Z stderr F {"level":"info","pid":1,"query":214.118431,"payload_dur":1.58421,"time":"2022-02-15T07:03:48Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T07:03:58.425768433Z stderr F {"level":"info","pid":1,"query":216.972392,"payload_dur":1.489713,"time":"2022-02-15T07:03:58Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T07:04:05.256302293Z stderr F {"level":"info","pid":1,"query":263.903548,"payload_dur":1.60378,"time":"2022-02-15T07:04:05Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T07:04:12.630577473Z stderr F {"level":"info","pid":1,"query":239.082755,"payload_dur":2.053421,"time":"2022-02-15T07:04:12Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T07:04:20.10408072Z stderr F {"level":"info","pid":1,"query":223.995996,"payload_dur":4.426523,"time":"2022-02-15T07:04:20Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'GameChanger CHYiM'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644908760000&to=1644908880000'
+    sample_rate: 80
+    pageload_duration:
+      - 3.23
+      - 1.91
+      - 2.20
+      - 1.88
+      - 1.94
+    query_log:
+      - '2022-02-15T07:06:34.62225055Z stderr F {"level":"info","pid":1,"query":219.697797,"payload_dur":1.574893,"time":"2022-02-15T07:06:34Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T07:06:44.590256298Z stderr F {"level":"info","pid":1,"query":210.962471,"payload_dur":4.65346,"time":"2022-02-15T07:06:44Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T07:06:51.857296041Z stderr F {"level":"info","pid":1,"query":344.111359,"payload_dur":4.132592,"time":"2022-02-15T07:06:51Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T07:06:59.289743346Z stderr F {"level":"info","pid":1,"query":229.537296,"payload_dur":5.51095,"time":"2022-02-15T07:06:59Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T07:07:06.488374397Z stderr F {"level":"info","pid":1,"query":248.582813,"payload_dur":5.544277,"time":"2022-02-15T07:07:06Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'GameChanger CHYiM'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644908940000&to=1644909060000'
+    sample_rate: 90
+    pageload_duration:
+      - 3.49
+      - 1.90
+      - 1.90
+      - 1.87
+      - 1.84
+    query_log:
+      - '2022-02-15T07:10:33.244482138Z stderr F {"level":"info","pid":1,"query":265.948218,"payload_dur":1.996243,"time":"2022-02-15T07:10:33Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T07:10:39.712766196Z stderr F {"level":"info","pid":1,"query":238.058661,"payload_dur":4.841547,"time":"2022-02-15T07:10:39Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T07:10:46.14711543Z stderr F {"level":"info","pid":1,"query":231.406711,"payload_dur":5.391077,"time":"2022-02-15T07:10:46Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T07:10:52.940760077Z stderr F {"level":"info","pid":1,"query":217.665006,"payload_dur":5.463459,"time":"2022-02-15T07:10:52Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T07:10:59.15639546Z stderr F {"level":"info","pid":1,"query":217.609936,"payload_dur":5.164512,"time":"2022-02-15T07:10:59Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'OkCupid 28r9d'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644946200000&to=1644946440000'
+    sample_rate: 100
+    pageload_duration:
+      - 5.16
+      - 3.81
+      - 3.30
+      - 3.09
+      - 3.08
+    query_log:
+      - '2022-02-15T17:32:38.456333249Z stderr F {"level":"info","pid":1,"query":1179.946991,"payload_dur":3.531276,"time":"2022-02-15T17:32:38Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T17:33:03.397594589Z stderr F {"level":"info","pid":1,"query":1119.29691,"payload_dur":8.47397,"time":"2022-02-15T17:33:03Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T17:33:14.860834117Z stderr F {"level":"info","pid":1,"query":1088.339785,"payload_dur":10.266852,"time":"2022-02-15T17:33:14Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T17:33:23.370276964Z stderr F {"level":"info","pid":1,"query":997.163523,"payload_dur":9.665204,"time":"2022-02-15T17:33:23Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T17:33:31.579320694Z stderr F {"level":"info","pid":1,"query":1055.801606,"payload_dur":9.841581,"time":"2022-02-15T17:33:31Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'OkCupid 28r9d'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644946500000&to=1644946860000'
+    sample_rate: 5
+    pageload_duration:
+      - 4.72
+      - 2.91
+      - 2.67
+      - 2.55
+      - 2.52
+    query_log:
+      - '2022-02-15T17:38:15.293978185Z stderr F {"level":"info","pid":1,"query":690.433115,"payload_dur":1.535065,"time":"2022-02-15T17:38:15Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T17:38:23.062891862Z stderr F {"level":"info","pid":1,"query":731.780816,"payload_dur":1.570098,"time":"2022-02-15T17:38:23Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T17:38:31.395135693Z stderr F {"level":"info","pid":1,"query":723.908013,"payload_dur":4.403844,"time":"2022-02-15T17:38:31Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T17:38:38.791873421Z stderr F {"level":"info","pid":1,"query":697.885746,"payload_dur":4.250929,"time":"2022-02-15T17:38:38Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T17:38:45.270983752Z stderr F {"level":"info","pid":1,"query":721.157371,"payload_dur":5.098821,"time":"2022-02-15T17:38:45Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'OkCupid 28r9d'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644946860000&to=1644947400000'
+    sample_rate: 10
+    pageload_duration:
+      - 4.99
+      - 4.12
+      - 2.83
+      - 2.77
+      - 2.91
+    query_log:
+      - '2022-02-15T17:43:37.258792479Z stderr F {"level":"info","pid":1,"query":936.760182,"payload_dur":2.829058,"time":"2022-02-15T17:43:37Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T17:48:58.718898969Z stderr F {"level":"info","pid":1,"query":936.032108,"payload_dur":2.826701,"time":"2022-02-15T17:48:58Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T17:49:09.10516469Z stderr F {"level":"info","pid":1,"query":968.488655,"payload_dur":7.953359,"time":"2022-02-15T17:49:09Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T17:49:18.025446413Z stderr F {"level":"info","pid":1,"query":970.981472,"payload_dur":7.104286,"time":"2022-02-15T17:49:18Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T17:49:26.887045488Z stderr F {"level":"info","pid":1,"query":1114.821859,"payload_dur":9.559336,"time":"2022-02-15T17:49:26Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'OkCupid 28r9d'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644947460000&to=1644947580000'
+    sample_rate: 20
+    pageload_duration:
+      - 4.59
+      - 3.31
+      - 3.01
+      - 2.83
+      - 3.00
+    query_log:
+      - '2022-02-15T17:51:28.670534333Z stderr F {"level":"info","pid":1,"query":974.754408,"payload_dur":2.786,"time":"2022-02-15T17:51:28Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T17:51:39.409737255Z stderr F {"level":"info","pid":1,"query":1057.205785,"payload_dur":2.889094,"time":"2022-02-15T17:51:39Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T17:51:46.703837349Z stderr F {"level":"info","pid":1,"query":1073.947659,"payload_dur":2.820737,"time":"2022-02-15T17:51:46Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T17:51:53.415313278Z stderr F {"level":"info","pid":1,"query":1006.412955,"payload_dur":4.988733,"time":"2022-02-15T17:51:53Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T17:52:01.1645274Z stderr F {"level":"info","pid":1,"query":997.855528,"payload_dur":8.078896,"time":"2022-02-15T17:52:01Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'OkCupid 28r9d'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644947640000&to=1644947760000'
+    sample_rate: 30
+    pageload_duration:
+      - 4.11
+      - 2.72
+      - 2.86
+      - 2.71
+      - 2.69
+    query_log:
+      - '2022-02-15T17:54:09.70656928Z stderr F {"level":"info","pid":1,"query":1004.773386,"payload_dur":3.233779,"time":"2022-02-15T17:54:09Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T17:54:25.498747485Z stderr F {"level":"info","pid":1,"query":967.75806,"payload_dur":2.944808,"time":"2022-02-15T17:54:25Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T17:54:33.519049183Z stderr F {"level":"info","pid":1,"query":1042.557008,"payload_dur":3.017776,"time":"2022-02-15T17:54:33Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T17:54:40.837779576Z stderr F {"level":"info","pid":1,"query":971.954375,"payload_dur":2.967243,"time":"2022-02-15T17:54:40Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T17:54:47.839715771Z stderr F {"level":"info","pid":1,"query":1029.915375,"payload_dur":9.119151,"time":"2022-02-15T17:54:47Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'OkCupid 28r9d'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644947820000&to=1644947880000'
+    sample_rate: 40
+    pageload_duration:
+      - 4.29
+      - 2.76
+      - 2.73
+      - 2.78
+      - 2.81
+    query_log:
+      - '2022-02-15T17:57:04.064815711Z stderr F {"level":"info","pid":1,"query":1024.161827,"payload_dur":3.262913,"time":"2022-02-15T17:57:04Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T17:57:12.666059981Z stderr F {"level":"info","pid":1,"query":1028.647608,"payload_dur":2.976258,"time":"2022-02-15T17:57:12Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T17:57:22.78105922Z stderr F {"level":"info","pid":1,"query":1019.588399,"payload_dur":2.907199,"time":"2022-02-15T17:57:22Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T17:57:39.672586771Z stderr F {"level":"info","pid":1,"query":1023.825006,"payload_dur":6.197877,"time":"2022-02-15T17:57:39Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T17:57:48.256369332Z stderr F {"level":"info","pid":1,"query":991.801862,"payload_dur":7.60021,"time":"2022-02-15T17:57:48Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'OkCupid 28r9d'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644947940000&to=1644948120000'
+    sample_rate: 50
+    pageload_duration:
+      - 5.82
+      - 3.69
+      - 3.31
+      - 3.08
+      - 3.09
+    query_log:
+      - '2022-02-15T18:01:13.671823169Z stderr F {"level":"info","pid":1,"query":965.446692,"payload_dur":2.892987,"time":"2022-02-15T18:01:13Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T18:01:23.293567176Z stderr F {"level":"info","pid":1,"query":1048.305616,"payload_dur":6.664936,"time":"2022-02-15T18:01:23Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T18:01:31.853251596Z stderr F {"level":"info","pid":1,"query":1014.936564,"payload_dur":9.57613,"time":"2022-02-15T18:01:31Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T18:01:39.517684543Z stderr F {"level":"info","pid":1,"query":1027.710946,"payload_dur":10.413112,"time":"2022-02-15T18:01:39Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T18:01:47.032492948Z stderr F {"level":"info","pid":1,"query":1033.106207,"payload_dur":8.405084,"time":"2022-02-15T18:01:47Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'OkCupid 28r9d'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644948180000&to=1644948360000'
+    sample_rate: 60
+    pageload_duration:
+      - 3.47
+      - 3.83
+      - 3.88
+      - 3.10
+      - 3.17
+    query_log:
+      - '2022-02-15T18:04:50.937570343Z stderr F {"level":"info","pid":1,"query":1033.285651,"payload_dur":3.217231,"time":"2022-02-15T18:04:50Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T18:05:05.125451209Z stderr F {"level":"info","pid":1,"query":1059.723763,"payload_dur":7.698221,"time":"2022-02-15T18:05:05Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T18:05:12.956682985Z stderr F {"level":"info","pid":1,"query":1173.052455,"payload_dur":7.495756,"time":"2022-02-15T18:05:12Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T18:05:20.075053078Z stderr F {"level":"info","pid":1,"query":1012.165058,"payload_dur":7.667513,"time":"2022-02-15T18:05:20Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T18:05:28.808471708Z stderr F {"level":"info","pid":1,"query":1079.881625,"payload_dur":9.147376,"time":"2022-02-15T18:05:28Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'OkCupid 28r9d'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644949380000&to=1644949500000'
+    sample_rate: 70
+    pageload_duration:
+      - 4.17
+      - 3.05
+      - 2.86
+      - 2.88
+      - 2.84
+    query_log:
+      - '2022-02-15T18:23:20.500452519Z stderr F {"level":"info","pid":1,"query":1025.364666,"payload_dur":2.81676,"time":"2022-02-15T18:23:20Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T18:23:42.855364499Z stderr F {"level":"info","pid":1,"query":1007.643432,"payload_dur":9.129101,"time":"2022-02-15T18:23:42Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T18:23:50.131176915Z stderr F {"level":"info","pid":1,"query":1015.978712,"payload_dur":8.366979,"time":"2022-02-15T18:23:50Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T18:24:00.103602596Z stderr F {"level":"info","pid":1,"query":1007.129367,"payload_dur":8.643238,"time":"2022-02-15T18:24:00Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T18:24:09.074348727Z stderr F {"level":"info","pid":1,"query":1049.870855,"payload_dur":2.790371,"time":"2022-02-15T18:24:09Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'OkCupid 28r9d'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644949560000&to=1644949740000'
+    sample_rate: 80
+    pageload_duration:
+      - 4.25
+      - 2.94
+      - 2.97
+      - 2.81
+      - 2.97
+    query_log:
+      - '2022-02-15T18:27:43.554063975Z stderr F {"level":"info","pid":1,"query":1051.270502,"payload_dur":3.217751,"time":"2022-02-15T18:27:43Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T18:27:55.476117011Z stderr F {"level":"info","pid":1,"query":1141.244334,"payload_dur":2.859299,"time":"2022-02-15T18:27:55Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T18:28:02.705245963Z stderr F {"level":"info","pid":1,"query":1220.745979,"payload_dur":3.506148,"time":"2022-02-15T18:28:02Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T18:28:09.892868977Z stderr F {"level":"info","pid":1,"query":1088.901172,"payload_dur":3.327214,"time":"2022-02-15T18:28:09Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T18:28:17.733336304Z stderr F {"level":"info","pid":1,"query":1084.322221,"payload_dur":3.588597,"time":"2022-02-15T18:28:17Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'OkCupid 28r9d'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644949800000&to=1644949920000'
+    sample_rate: 90
+    pageload_duration:
+      - 4.48
+      - 2.96
+      - 2.86
+      - 2.93
+      - 2.97
+    query_log:
+      - '2022-02-15T18:30:04.002717655Z stderr F {"level":"info","pid":1,"query":1057.041487,"payload_dur":3.401619,"time":"2022-02-15T18:30:04Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T18:30:12.285561131Z stderr F {"level":"info","pid":1,"query":1124.903894,"payload_dur":2.86135,"time":"2022-02-15T18:30:12Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T18:30:19.498544139Z stderr F {"level":"info","pid":1,"query":1049.982316,"payload_dur":4.28338,"time":"2022-02-15T18:30:19Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T18:30:26.712182089Z stderr F {"level":"info","pid":1,"query":1125.246809,"payload_dur":7.283421,"time":"2022-02-15T18:30:26Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T18:30:36.142816627Z stderr F {"level":"info","pid":1,"query":1147.906489,"payload_dur":7.864457,"time":"2022-02-15T18:30:36Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'AllTrails rEvQ4'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644950100000&to=1644950460000'
+    sample_rate: 100
+    pageload_duration:
+      - 3.53
+      - 2.04
+      - 2.06
+      - 1.92
+      - 1.98
+    query_log:
+      - '2022-02-15T18:39:22.97079087Z stderr F {"level":"info","pid":1,"query":367.08013,"payload_dur":1.600475,"time":"2022-02-15T18:39:22Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T18:39:29.81087038Z stderr F {"level":"info","pid":1,"query":309.727854,"payload_dur":3.104012,"time":"2022-02-15T18:39:29Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T18:39:35.586231434Z stderr F {"level":"info","pid":1,"query":382.600598,"payload_dur":4.725526,"time":"2022-02-15T18:39:35Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T18:39:41.880580211Z stderr F {"level":"info","pid":1,"query":318.941508,"payload_dur":5.204055,"time":"2022-02-15T18:39:41Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T18:39:52.515199302Z stderr F {"level":"info","pid":1,"query":319.232989,"payload_dur":4.690719,"time":"2022-02-15T18:39:52Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'AllTrails rEvQ4'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644950520000&to=1644950580000'
+    sample_rate: 5
+    pageload_duration:
+      - 2.44
+      - 1.98
+      - 1.88
+      - 1.89
+      - 1.95
+    query_log:
+      - '2022-02-15T18:42:16.394699512Z stderr F {"level":"info","pid":1,"query":225.698179,"payload_dur":1.170083,"time":"2022-02-15T18:42:16Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T18:42:22.625154007Z stderr F {"level":"info","pid":1,"query":221.324894,"payload_dur":0.96815,"time":"2022-02-15T18:42:22Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T18:42:29.371473183Z stderr F {"level":"info","pid":1,"query":236.85016,"payload_dur":1.030493,"time":"2022-02-15T18:42:29Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T18:42:35.94204279Z stderr F {"level":"info","pid":1,"query":250.839387,"payload_dur":2.469798,"time":"2022-02-15T18:42:35Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T18:42:42.672426616Z stderr F {"level":"info","pid":1,"query":258.165689,"payload_dur":3.31383,"time":"2022-02-15T18:42:42Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'AllTrails rEvQ4'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644950640000&to=1644950760000'
+    sample_rate: 10
+    pageload_duration:
+      - 2.92
+      - 2.00
+      - 1.93
+      - 1.91
+      - 1.89
+    query_log:
+      - '2022-02-15T18:44:54.566525623Z stderr F {"level":"info","pid":1,"query":247.967201,"payload_dur":1.177804,"time":"2022-02-15T18:44:54Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T18:45:03.398439264Z stderr F {"level":"info","pid":1,"query":272.883223,"payload_dur":1.177868,"time":"2022-02-15T18:45:03Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T18:45:13.309456834Z stderr F {"level":"info","pid":1,"query":274.682632,"payload_dur":1.256224,"time":"2022-02-15T18:45:13Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T18:45:20.895846675Z stderr F {"level":"info","pid":1,"query":228.22781,"payload_dur":1.194723,"time":"2022-02-15T18:45:20Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T18:45:27.67466193Z stderr F {"level":"info","pid":1,"query":243.155376,"payload_dur":3.339378,"time":"2022-02-15T18:45:27Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'AllTrails rEvQ4'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644951600000&to=1644952740000'
+    sample_rate: 20
+    pageload_duration:
+      - 3.59
+      - 2.01
+      - 2.08
+      - 2.09
+      - 1.99
+    query_log:
+      - '2022-02-15T19:16:50.41776598Z stderr F {"level":"info","pid":1,"query":264.072194,"payload_dur":1.69922,"time":"2022-02-15T19:16:50Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T19:16:57.578639258Z stderr F {"level":"info","pid":1,"query":258.278009,"payload_dur":3.244412,"time":"2022-02-15T19:16:57Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T19:17:04.544845956Z stderr F {"level":"info","pid":1,"query":273.406884,"payload_dur":3.724213,"time":"2022-02-15T19:17:04Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T19:17:11.608194014Z stderr F {"level":"info","pid":1,"query":272.965552,"payload_dur":4.46925,"time":"2022-02-15T19:17:11Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T19:17:17.465124249Z stderr F {"level":"info","pid":1,"query":235.333377,"payload_dur":4.891532,"time":"2022-02-15T19:17:17Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'AllTrails rEvQ4'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644952740000&to=1644953460000'
+    sample_rate: 30
+    pageload_duration:
+      - 3.47
+      - 2.06
+      - 2.02
+      - 2.19
+      - 2.05
+    query_log:
+      - '2022-02-15T19:29:40.533660363Z stderr F {"level":"info","pid":1,"query":266.036027,"payload_dur":1.580679,"time":"2022-02-15T19:29:40Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T19:29:48.442735266Z stderr F {"level":"info","pid":1,"query":270.646112,"payload_dur":4.942048,"time":"2022-02-15T19:29:48Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T19:29:55.849112397Z stderr F {"level":"info","pid":1,"query":299.440392,"payload_dur":1.946511,"time":"2022-02-15T19:29:55Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T19:30:02.389214001Z stderr F {"level":"info","pid":1,"query":392.90214,"payload_dur":1.754753,"time":"2022-02-15T19:30:02Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T19:30:08.655534734Z stderr F {"level":"info","pid":1,"query":282.810771,"payload_dur":2.918342,"time":"2022-02-15T19:30:08Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'AllTrails rEvQ4'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644953520000&to=1644953640000'
+    sample_rate: 40
+    pageload_duration:
+      - 3.55
+      - 2.60
+      - 2.44
+      - 2.27
+      - 2.17
+    query_log:
+      - '2022-02-15T19:32:10.010495169Z stderr F {"level":"info","pid":1,"query":276.054645,"payload_dur":1.693197,"time":"2022-02-15T19:32:10Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T19:32:17.707757671Z stderr F {"level":"info","pid":1,"query":288.076408,"payload_dur":1.896566,"time":"2022-02-15T19:32:17Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T19:32:27.362069035Z stderr F {"level":"info","pid":1,"query":265.931752,"payload_dur":1.636633,"time":"2022-02-15T19:32:27Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T19:32:34.089507775Z stderr F {"level":"info","pid":1,"query":339.230595,"payload_dur":4.655071,"time":"2022-02-15T19:32:34Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T19:32:41.270488686Z stderr F {"level":"info","pid":1,"query":268.146566,"payload_dur":4.446521,"time":"2022-02-15T19:32:41Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'AllTrails rEvQ4'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644953700000&to=1644953880000'
+    sample_rate: 50
+    pageload_duration:
+      - 3.54
+      - 2.03
+      - 1.95
+      - 2.00
+      - 1.96
+    query_log:
+      - '2022-02-15T19:35:56.932898546Z stderr F {"level":"info","pid":1,"query":343.296051,"payload_dur":1.881072,"time":"2022-02-15T19:35:56Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T19:36:17.447345041Z stderr F {"level":"info","pid":1,"query":264.242925,"payload_dur":2.808443,"time":"2022-02-15T19:36:17Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T19:36:23.570873287Z stderr F {"level":"info","pid":1,"query":292.467117,"payload_dur":3.316911,"time":"2022-02-15T19:36:23Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T19:36:29.906621846Z stderr F {"level":"info","pid":1,"query":259.492037,"payload_dur":5.217753,"time":"2022-02-15T19:36:29Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T19:36:35.589884111Z stderr F {"level":"info","pid":1,"query":288.478209,"payload_dur":4.629148,"time":"2022-02-15T19:36:35Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'AllTrails rEvQ4'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644954540000&to=1644956580000'
+    sample_rate: 60
+    pageload_duration:
+      - 4.69
+      - 4.06
+      - 3.46
+      - 3.49
+      - 2.12
+    query_log:
+      - '2022-02-15T19:49:47.276854117Z stderr F {"level":"info","pid":1,"query":332.805532,"payload_dur":1.571657,"time":"2022-02-15T19:49:47Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T19:54:19.654268292Z stderr F {"level":"info","pid":1,"query":294.523819,"payload_dur":1.703008,"time":"2022-02-15T19:54:19Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T19:57:19.927659298Z stderr F {"level":"info","pid":1,"query":360.126343,"payload_dur":1.686313,"time":"2022-02-15T19:57:19Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T20:03:59.742199752Z stderr F {"level":"info","pid":1,"query":300.354691,"payload_dur":2.253614,"time":"2022-02-15T20:03:59Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T20:04:32.097604744Z stderr F {"level":"info","pid":1,"query":328.99336,"payload_dur":4.541221,"time":"2022-02-15T20:04:32Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'AllTrails rEvQ4'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644965640000&to=1644965700000'
+    sample_rate: 70
+    pageload_duration:
+      - 3.44
+      - 2.07
+      - 2.07
+      - 2.00
+      - 1.97
+    query_log:
+      - '2022-02-15T22:54:10.9552902Z stderr F {"level":"info","pid":1,"query":336.517419,"payload_dur":4.389782,"time":"2022-02-15T22:54:10Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T22:54:20.994399476Z stderr F {"level":"info","pid":1,"query":305.263568,"payload_dur":4.82645,"time":"2022-02-15T22:54:20Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T22:54:28.324836286Z stderr F {"level":"info","pid":1,"query":322.726288,"payload_dur":4.988165,"time":"2022-02-15T22:54:28Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T22:54:35.125045501Z stderr F {"level":"info","pid":1,"query":318.860475,"payload_dur":4.508484,"time":"2022-02-15T22:54:35Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T22:54:44.712170516Z stderr F {"level":"info","pid":1,"query":322.293064,"payload_dur":6.213574,"time":"2022-02-15T22:54:44Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'AllTrails rEvQ4'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644965820000&to=1644965940000'
+    sample_rate: 80
+    pageload_duration:
+      - 3.26
+      - 2.43
+      - 2.08
+      - 2.07
+      - 2.02
+    query_log:
+      - '2022-02-15T22:57:32.414254554Z stderr F {"level":"info","pid":1,"query":322.370581,"payload_dur":2.251002,"time":"2022-02-15T22:57:32Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T22:57:51.695618912Z stderr F {"level":"info","pid":1,"query":314.991779,"payload_dur":2.380654,"time":"2022-02-15T22:57:51Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T22:57:58.735653714Z stderr F {"level":"info","pid":1,"query":328.005113,"payload_dur":2.255745,"time":"2022-02-15T22:57:58Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T22:58:07.308774338Z stderr F {"level":"info","pid":1,"query":353.416912,"payload_dur":4.669985,"time":"2022-02-15T22:58:07Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T22:58:14.281325236Z stderr F {"level":"info","pid":1,"query":328.108523,"payload_dur":5.490093,"time":"2022-02-15T22:58:14Z","message":"Finished producing response for flamegraph query"}'
+
+  - app: 'AllTrails rEvQ4'
+    grafana_url: 'https://grafana.emb-eng.com/d/S6ZwBx-nk/flamegraph-endpoint-tests?orgId=1&editPanel=2&from=1644966000000&to=1644966120000'
+    sample_rate: 90
+    pageload_duration:
+      - 3.20
+      - 2.06
+      - 2.19
+      - 2.00
+      - 2.45
+    query_log:
+      - '2022-02-15T23:00:36.826857029Z stderr F {"level":"info","pid":1,"query":314.495323,"payload_dur":2.315903,"time":"2022-02-15T23:00:36Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T23:00:43.021351459Z stderr F {"level":"info","pid":1,"query":315.986849,"payload_dur":2.091872,"time":"2022-02-15T23:00:43Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T23:00:50.15468537Z stderr F {"level":"info","pid":1,"query":307.128115,"payload_dur":2.173733,"time":"2022-02-15T23:00:50Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T23:00:56.191290308Z stderr F {"level":"info","pid":1,"query":296.598094,"payload_dur":2.17066,"time":"2022-02-15T23:00:56Z","message":"Finished producing response for flamegraph query"}'
+      - '2022-02-15T23:01:03.510881092Z stderr F {"level":"info","pid":1,"query":325.175682,"payload_dur":4.433633,"time":"2022-02-15T23:01:03Z","message":"Finished producing response for flamegraph query"}'
